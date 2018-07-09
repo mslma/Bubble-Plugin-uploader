@@ -1,0 +1,30 @@
+{
+    "auth": "private_key_header",
+    "calls": {
+        "AAL": {
+            "body_type": "form_data",
+            "data_type": "JSON",
+            "method": "put",
+            "name": "Upload File",
+            "params": {
+                "AAM": {
+                    "binary_file": true,
+                    "key": "data",
+                    "private": true,
+                    "value": ""
+                }
+            },
+            "publish_as": "action",
+            "rank": 0,
+            "url": "https://storage.googleapis.com/aifiles2018/[name]",
+            "url_params": {
+                "AAO": {
+                    "key": "name",
+                    "private": true,
+                    "value": "test"
+                }
+            }
+        }
+    },
+    "human": "google storage"
+}

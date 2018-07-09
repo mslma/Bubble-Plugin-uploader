@@ -1,0 +1,46 @@
+{
+    "add_hover_pressed": true,
+    "add_is_visible": true,
+    "category": "input forms",
+    "default_dim": {
+        "height": 50,
+        "width": 200
+    },
+    "display": "uploader",
+    "events": {
+        "AAP": {
+            "caption": "is_changed",
+            "doc": "Whenever the value changes",
+            "name": "is_changed"
+        }
+    },
+    "fields": {
+        "AAF": {
+            "caption": "File Name",
+            "editor": "DynamicValue",
+            "name": "fileName",
+            "optional": false,
+            "rank": 0,
+            "value": "file"
+        }
+    },
+    "icon": "ion-ios-cloud-upload-outline",
+    "property_applications": {
+        "Background": true,
+        "Border": true,
+        "Font": false,
+        "MinWidth": true,
+        "resizable": true
+    },
+    "states": {
+        "AAQ": {
+            "caption": "value",
+            "doc": "Contains the value of the input",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "value",
+            "value": "file"
+        }
+    }
+}
